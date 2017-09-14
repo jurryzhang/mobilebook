@@ -1,0 +1,206 @@
+[ 2017-08-10T13:55:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\ThinkPHP\Library\Think\Db\Driver.class.php 第 546 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: caseid D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 114 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 340 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-08-10T13:55:41+08:00 ] 127.0.0.1 /Template/mobile/default/Static/js/time/need/laydate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2017-08-10T13:55:41+08:00 ] 127.0.0.1 /Template/mobile/default/Static/js/time/skins/default/laydate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2017-08-10T13:55:51+08:00 ] 127.0.0.1 /Article/index/id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) ORDER BY addtime DESC LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) ORDER BY addtime DESC LIMIT 5  
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 105 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 97 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 98 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 99 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 100 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 101 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 102 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 103 行.
+NOTIC: [8] Undefined variable: chapter D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 518 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

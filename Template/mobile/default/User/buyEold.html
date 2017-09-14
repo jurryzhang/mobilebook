@@ -1,0 +1,73 @@
+<include file="Public/header"/>
+<body>
+<include file="Public/header_nav"/>
+
+
+<div id="tbh5v0" style="margin-top: 45px">
+    <div class="Personal">
+        <div id="tbh5v0">
+            <div class="innercontent1" >
+                <form method="post" action="{:U('User/pay')}" id="edit_profile" >
+                    <div class="flex paytype">
+                        <div>
+                            <input type="radio" name="paytype" value ="weixinpay" checked="true">
+                            <img style="height:80%" src="__STATIC__/images/bottom_img/pay_weixin@3x.png"/>
+                            <span>
+                                    &nbsp;微信支付
+                                </span>
+                            </input>
+                        </div>
+
+                        <if condition="$isweixin neq 1">
+                            <div>
+                                <input type="radio" name="paytype" value ="alipay">
+                                <img style="height:80%"  src="__STATIC__/images/bottom_img/pay_zhifubao@3x.png"/>
+                                <span>
+                                    &nbsp;支付宝</span>
+                                </input>
+                            </div>
+                        </if>
+                    </div>
+
+                    <div class="payegold flex">
+                        <div>
+                            <input type="radio" name="egold" value="1000" class="radio" checked="true" >
+
+                            <span>10元(1000{$egoldname})</span>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="egold" value="2000" class="radio" >
+
+                            <span>20元(2000{$egoldname})</span>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="egold" value="3000" class="radio" >
+
+                            <span>30元(3000{$egoldname})</span>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="egold" value="5000" class="radio" >
+
+                            <span>50元(5000{$egoldname})</span>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="egold" value="10000" class="radio" >
+
+                            <span>100元(10000{$egoldname})</span>
+                        </div>
+                    </div>
+
+                    <div class="field submit-btn">
+                        <input type="submit" value="确认支付" class="btn_big1" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

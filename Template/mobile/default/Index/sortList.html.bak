@@ -1,0 +1,80 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta name="Generator"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+        <title>{$site_title}</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/public.css"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/index.css"/>
+
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/category_list.css"/>
+
+        <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/jquery.json.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/touchslider.dev.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+        <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+    </head>
+
+    <body>
+        <div id="page" class="showpage">
+            <div class="header">
+                <div class="h-mid" style="width: 100%">
+                    {$site_title}
+                </div>
+            </div>
+
+            <section class="index_floor_lou" >
+                <foreach name="resultbooklist" key="key" item="value">
+                    <div class="floor_body"  style="border-top: 0px;">
+                        <div id="scroll_promotion">
+                            <a href="{:U('Index/getBookListFromSortID',array('sort_id'=> $key))}" title="1">
+                                <ul>
+                                    <li style="margin-top: 10px;">
+
+                                        <div class="left">
+                                            <img width="80px" height="112px" alt="{$value.sortname}" src="{$value.cover}">
+                                        </div>
+
+                                        <div class="bookleft" id="bookintro">
+                                            <h4 class="bookname" style="padding-top: 10%">
+                                                {$value.sortname}
+                                            </h4>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </foreach>
+            </section>
+
+            <include file="Public/footer_nav"/>
+
+            <script>
+                $(function()
+                {
+                    width = document.documentElement.clientWidth - 112;
+
+                    width = 0.9 * width;
+
+                    $('.bookleft').css({width:width});
+                });
+
+                function goTop()
+                {
+                    $('html,body').animate({'scrollTop':0},600);
+                }
+            </script>
+
+            <a href="javascript:goTop();" class="gotop">
+                <img src="__STATIC__/images/topup.png">
+            </a>
+
+        </div>
+    </body>
+</html>

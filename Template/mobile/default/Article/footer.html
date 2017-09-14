@@ -1,0 +1,43 @@
+<div style="height:50px; line-height:0px; clear: both; background-color: rgb(246,246,246)"></div>
+<div class="artcile_nav"  style="background: #efa164; ">
+    <ul>
+        <li style="width: 50%">
+            <!--<a style="color: white;font-size: 20px" href="{:U('User/addBookCase',array('book_id' => $book_info['articleid']))}" onClick="addBookCase({$book_info['articleid']})">-->
+            <a style="color: white;font-size: 20px" onClick="addBookCase({$book_info['articleid']},'{$book_info['articlename']}')">
+                <!--加入收藏-->
+                <img width=100% src="__STATIC__/images/bottom_img/jiarushujia1@3x.png">
+            </a>
+        </li>
+
+        <if condition="$bookcase eq ''">
+            <li style="width: 50%">
+                <a style="color: white;font-size: 20px" href="{:U('Article/readChapter',array('chapter_id' => $book_info['firstchapter'],'book_id' => $book_info['articleid']))}">
+                    <!--开始阅读-->
+                    <img width=100% src="__STATIC__/images/bottom_img/kaishiyuedu1@3x.png">
+                </a>
+            </li>
+            <else/>
+            <li style="width: 50%">
+                <a style="color: white;font-size: 20px" href="{:U('Article/readChapterFromBookCase',array('bookcase_id' => $bookcase['caseid']))}">
+                    <!--继续阅读-->
+                    <img width=100% src="__STATIC__/images/bottom_img/kaishiyuedu2@3x.png">
+                </a>
+            </li>
+        </if>
+    </ul>
+
+    <script>
+        function addBookCase(bookID,bookName)
+        {
+            $.ajax(
+            {
+                type : "GET",
+                url  :  "/User/addBookCase/id/" + bookID + "/bookname/" + bookName + ".html",//+tab,
+                success: function(data)
+                {
+                    alert(data.msg);
+                }
+            });
+        }
+    </script>
+</div>

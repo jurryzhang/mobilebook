@@ -1,0 +1,29 @@
+<div class="md-modal md-effect-3" id="modal-3" xmlns="http://www.w3.org/1999/html">
+    <!--<form class="md-content" action="{:U('Article/buyVipChapter')}" id="buy_info_form" method="post">-->
+    <form class="md-content" action="/index.php">
+        <input  type="hidden" name="m" value="Mobile">
+        <input  type="hidden" name="c" value="Article">
+        <input  type="hidden" name="a" value="buyVipChapter">
+        <h3>书籍订单</h3>
+        <div id="startBuy">
+            您将从<span class="defaultColor">{$chaptername}</span> 开始购买
+        </div>
+        <div class="flex">
+            <div class="item selected {$buylist[0]['show']? able:disable}" buy_index="0" need_money="{$buylist[0]['totalprice']}">{$buylist[0]['buynum']}</div>
+            <div class="item {$buylist[1]['show']? able:disable}" buy_index="1" need_money="{$buylist[1]['totalprice']}">{$buylist[1]['buynum']}</div>
+            <div class="item {$buylist[2]['show']? able:disable}" buy_index="2" need_money="{$buylist[2]['totalprice']}">{$buylist[2]['buynum']}</div>
+            <div class="item {$buylist[3]['show']? able:disable}" buy_index="3" need_money="{$buylist[3]['totalprice']}">{$buylist[3]['buynum']}</div>
+        </div>
+        <input id="selItem" type="hidden" name="buy_index" value="0">
+        <div class="money">需支付：<span class="defaultColor ndmy"></span><span> {$eglodname}</span></div>
+        <div class="money">现有余额：<span id ="yue">{$userbalance}</span> {$eglodname}</div>
+        <div class="subscription">
+            <input id="subscibe" name="auto_buy" value="1" type=checkbox>自动订阅该书</input>
+        </div>
+        <button class="md-close">确认支付</button>
+        <p></p>
+    </form>
+</div>
+<div class="md-overlay"></div>
+<!--<script src="__STATIC__/js/wapmfds/cssParser.js"></script>-->
+<!--<script src="__STATIC__/js/wapmfds/css-filters-polyfill.js"></script>-->

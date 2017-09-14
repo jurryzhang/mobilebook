@@ -1,0 +1,38 @@
+<div class="read_vf_nav tborder">
+    <div>
+        <if condition="$chapter['prechapter'] neq -1">
+            <span url="{:U('Article/readChapter',array('chapter_id' => $chapter['prechapter'],'book_id' => $chapter['articleid']))}">
+                上一章
+            </span>
+        <else/>
+            <span >
+                已经是第一章
+            </span>
+        </if>
+    </div>
+    <div class="catalogue">
+        <span url="{:U('Article/getDirectory',array('id' => $chapter['articleid']))}">目录</span>
+    </div>
+    <div>
+        <if condition="$chapter['nextchapter'] neq -1">
+            <span url="{:U('Article/readChapter',array('chapter_id' => $chapter['nextchapter'],'book_id' => $chapter['articleid']))}">
+                下一章
+            </span>
+        <else/>
+            <span >
+                已经是最后一章
+            </span>
+        </if>
+    </div>
+</div>
+<script>
+    $(".read_vf_nav div span").click(function () {
+        if(typeof($(this).attr("url"))=="undefined")
+        {
+        }
+        else
+        {
+            window.location.replace($(this).attr("url"));
+        }
+    })
+</script>

@@ -1,0 +1,16 @@
+# Helicon ISAPI_Rewrite configuration file
+# Version 3.1.0.73
+
+RewriteEngine on
+#RewriteBase /
+RewriteRule ^$ index.php
+
+RewriteRule ^/(.*)/(.*).html$  /index.php?s=/$1/$2
+
+RewriteRule ^/index.php/(.*)/(.*).html$   /$1/$2.html
+
+RewriteRule ^/(.*)/(.*)/(.*).html$   /$2/$3.html
+
+
+
+

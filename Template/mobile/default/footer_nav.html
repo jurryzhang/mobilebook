@@ -1,0 +1,50 @@
+<div style="height:50px; line-height:50px; clear: both; background-color: rgb(246,246,246)"></div>
+<div class="v_nav">
+	<div class="vf_nav">
+		<ul>
+			<li style="margin-top: 3px">
+				<a href="{:U('Index/index')}">
+					<if condition="$type eq 1">
+						<img src="__STATIC__/images/bottom_img/jingxuan1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/jingxuan2@3x.png" alt="" style="width: 25px">
+					</if>
+				</a>
+			</li>
+
+			<li style="margin-top: 3px">
+				<a href="{:U('Index/getSortList')}">
+					<if condition="$type eq 2">
+						<img src="__STATIC__/images/bottom_img/fenlei1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/fenlei2@3x.png" alt="" style="width: 25px">
+					</if>
+				</a>
+			</li>
+
+			<li style="margin-top: 3px">
+				<a href="{:U('Index/getTopicList')}">
+					<if condition="$type eq 3">
+						<img src="__STATIC__/images/bottom_img/zhuanti1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/zhuanti2@3x.png" alt="" style="width: 25px">
+					</if>
+				</a>
+			</li>
+
+			<li style="margin-top: 3px">
+				<if condition="($isweixin neq 1)">
+					<a href="{:U('Mobile/User/buyEgold')}">
+						<else/>
+						<a href="{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}">
+				</if>
+					<if condition="$type eq 4">
+						<img src="__STATIC__/images/bottom_img/chongzhi1.png" alt="" style="width: 25px">
+						<else />
+						<img src="__STATIC__/images/bottom_img/chongzhi2.png" alt="" style="width: 25px">
+					</if>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div> 

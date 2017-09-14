@@ -1,0 +1,64 @@
+
+<div class="v_nav">
+	<div class="vf_nav">
+		<ul>
+			<li style="border-color: #E0E0E0; width:24%;">
+				<a href="{:U('Index/index')}" style="font: normal 18px/20px  serif; color:white;font-weight:lighter;">
+					<!-- <if condition="$type eq 1">
+						<img src="__STATIC__/images/bottom_img/jingxuan1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/jingxuan2@3x.png" alt="" style="width: 25px">
+					</if> -->
+					<i class="fa fa-home"></i>首页
+				</a>
+			</li>
+
+			<li style="border-color: #E0E0E0;">
+				<a href="{:U('Index/getSortList')}" style="font: normal 18px/20px serif; color:white;font-weight:lighter;">
+					<!-- <if condition="$type eq 2">
+						<img src="__STATIC__/images/bottom_img/fenlei1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/fenlei2@3x.png" alt="" style="width: 25px">
+					</if> -->
+					书库
+				</a>
+			</li>
+
+			<li style="border-color: #E0E0E0;">
+				<a href="{:U('Index/search')}" style="font: normal 18px/20px  serif; color:white;font-weight:lighter;">
+					<!-- <if condition="$type eq 3">
+						<img src="__STATIC__/images/bottom_img/zhuanti1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/zhuanti2@3x.png" alt="" style="width: 25px">
+					</if> -->
+					搜索
+				</a>
+			</li>
+			<li style="border-color: #E0E0E0;">
+				<a href="{:U('Index/freeLimitBookList')}" style="font: normal 18px/20px  serif; color:white;font-weight:lighter;">
+					<!-- <if condition="$type eq 3">
+						<img src="__STATIC__/images/bottom_img/zhuanti1@3x.png" alt="" style="width: 25px">
+					<else />
+						<img src="__STATIC__/images/bottom_img/zhuanti2@3x.png" alt="" style="width: 25px">
+					</if> -->
+					限免
+				</a>
+			</li>
+
+			<li style="width:24%;">
+				<if condition="($isweixin neq 1)">
+					<a href="{:U('Mobile/User/buyEgold')}" style="border-color:transparent;font: normal 18px/20px  serif; font-weight:lighter;color:white;">
+						<else/>
+						<a href="{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}" style="border:none;font: normal 18px/20px  serif; font-weight:lighter;color:white;">
+				</if>
+					<!-- <if condition="$type eq 4">
+						<img src="__STATIC__/images/bottom_img/chongzhi1.png" alt="" style="width: 25px">
+						<else />
+						<img src="__STATIC__/images/bottom_img/chongzhi2.png" alt="" style="width: 25px">
+					</if> -->
+					<i class="fa fa-diamond" style="font-size:13px;"></i>充值
+				</a>
+			</li>
+		</ul>
+	</div>
+</div> 

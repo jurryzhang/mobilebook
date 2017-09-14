@@ -1,0 +1,26 @@
+<foreach name="chapterlist" key="key" item="value">
+    <a  href="{:U('Article/readChapter',array('chapter_id' => $value['chapterid'],'book_id' => $bookid))}" >
+        <div style="padding-left: 20px;font-size: 14px;padding-top: 10px;padding-bottom: 10px;line-height: 24px;border-top: 1px solid #efefef;border-bottom: 1px solid #efefef;text-align: left" >
+        
+            <if condition="$Think.cookie.chapterMark eq $value['chapterid']">
+            <span style="color:#46A3FF" >{$value.chaptername} </span> 
+             <i class="fa fa-bookmark-o" style="color: #46A3FF;margin-left: 10px;font-size: 17px;"></i>
+            <else />
+
+            <span>{$value.chaptername}</span>
+            </if> 
+
+            <span style="padding-left: 20px">
+                <if  condition="$value['isvip'] eq 1">
+                    <!--<img width="15px"   src="__STATIC__/images/bottom_img/jiasuo.png">-->
+					<!-- <i class="fa  fa-diamond"></i> -->
+					<if condition="$isFreeLimit eq 1">
+						<i class="fa fa-clock-o" style="color: #C00;"></i> <span style="color: #C00;">限免</span>
+						<else/>
+						<i class="fa fa-diamond" style="color:#CC00CC;">&nbsp;{$value.saleprice}</i>
+					</if>
+                </if>
+            </span>
+        </div>
+    </a>
+</foreach>

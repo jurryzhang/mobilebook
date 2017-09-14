@@ -1,0 +1,15 @@
+<xml>
+							<ToUserName><![CDATA[o0oqhwCiIFtzD3-GogLXHY6BypYA]]></ToUserName>
+							<FromUserName><![CDATA[gh_08b3a3bf0be7]]></FromUserName>
+							<CreateTime>1500599625</CreateTime>
+							<MsgType><![CDATA[news]]></MsgType>
+							<ArticleCount>1</ArticleCount>
+							<Articles>
+							<item>
+							<Title><![CDATA[这个是一个不同寻常的保安逆袭之路!]]></Title> 
+							<Description><![CDATA[作为一名光荣的小保安，罗军最牛的，没有之一的那种！繁华都市里，罗军以超强的身手和非凡的智慧如鱼得水。敌人强猛，以拳破之。敌人狡诈...]]></Description>
+							<PicUrl><![CDATA[http://channel.mianfeidushu.com/Public/upload/Pic/2017-04-26/59002f7d3f453.jpg]]></PicUrl>
+							<Url><![CDATA[http://m.kyread.com/Article/readChapter/chapter_id/603303/book_id/2015/cid/22/ptid/2.html]]></Url>
+							</item>
+							</Articles>
+							</xml>

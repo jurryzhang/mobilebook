@@ -1,0 +1,57 @@
+<include file="Public/header"/>
+
+<body>
+<include file="Public/header_nav"/>
+    <div id="page" class="showpage">
+         <div class="h-left">
+            <a class="sb-back" href="{:U('Index/index')}" title="返回"></a>
+        </div> 
+        
+        <section class="index_floor_lou">
+            <volist name="resultbooklist" id="booklist">
+                <div class="floor_body">
+                    <div id="scroll_promotion">
+                        <ul>
+                            <volist name="booklist.booklist" id="book">
+                                <li>
+                                    <div class="left">
+                                        <a href="" title="1">
+                                            <img width="80px" height="112px" alt="{$book.info.articlename}" src="{$book.cover}">
+                                        </a>
+                                    </div>
+
+                                    <div class="bookleft" id="bookintro">
+                                        <h4 class="bookname">
+                                            <a href="{$book.bookid}" title="1">
+                                                {$book.info.articlename}
+                                            </a>
+											
+                                        </h4>
+
+                                        <p class="bookinfo" >
+                                            {$book.info.intro}
+                                        </p>
+
+                                       
+                                    </div>
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </volist>
+        </section>
+
+        <script>
+            function goTop()
+            {
+                $('html,body').animate({'scrollTop':0},600);
+            }
+        </script>
+
+        <a href="javascript:goTop();" class="gotop">
+            <img src="__STATIC__/images/topup.png">
+        </a>
+
+    </div>
+</body>

@@ -1,0 +1,73 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="applicable-device" content="mobile">
+        <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+        <title>{$site_title}</title>
+        <link rel="stylesheet" href="__STATIC__/css/public.css">
+        <link rel="stylesheet" href="__STATIC__/css/index.css">
+        <link rel="stylesheet" href="__STATIC__/css/user.css">
+        <link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/modernizr.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+        <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" ></script>
+
+ 
+    </head>
+
+
+<body>
+<include file="Public/header_nav"/>
+<div id="page" class="showpage">
+
+    <div id="tbh5v0">
+        <div class="order ajax_return">
+            <empty name="freeBookList">
+                <div id="list_0_0" class="font12">暂未有免费书籍，敬请期待！</div>
+                <else/>
+                <section class="index_floor_lou">
+                    <volist name="freeBookList" id="book">
+                        <div class="floor_body"  style="border-top: 10px;">
+                            <div id="scroll_promotion">
+                                <ul>
+                                    <li >
+                                        <a href="{$book.url}" title="1" class="flex">
+                                            <div class="cover">
+                                                <img  alt="{$book.articlename}" src="{$book.cover}">
+                                            </div>
+
+                                            <div class="bInfo" id="bookintro">
+                                                <h4 class="bookname" onclick="showInfo({$book['caseid']})">
+                                                    {$book.articlename}
+                                                </h4>
+
+                                                <p style="font-size: 12px;color: #C00;margin-top: -15px;margin-left:-33px;">
+                                                    截止日期至：{:date('Y-m-d H:i:s',$book['freetime'])}
+                                                </p>
+
+                                                <p class="bookinfo" onclick="showInfo({$book['caseid']})">
+                                                    {$book.intro}
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </volist>
+                </section>
+            </empty>
+        </div>
+    </div>
+    <!-- <include file="Public/footer_nav"/> -->
+</div>
+</body>
+</html>

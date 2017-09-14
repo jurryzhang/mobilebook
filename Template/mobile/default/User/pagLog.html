@@ -1,0 +1,78 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="applicable-device" content="mobile">
+        <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+        <title>{$site_title}</title>
+        <link rel="stylesheet" href="__STATIC__/css/public.css">
+        <link rel="stylesheet" href="__STATIC__/css/index.css">
+        <link rel="stylesheet" href="__STATIC__/css/user.css">
+        <link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/modernizr.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+        <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" ></script>
+
+ 
+    </head>
+<body>
+<include file="Public/header_nav"/>
+    <div class="tab_nav">
+        <div class="header">
+            <div class="h-left">
+                <a class="sb-back" href="{:U('User/index')}" title="返回" target="_self"></a>
+            </div>
+
+            <div class="h-mid" style="width: 80%;float: left">
+                充值记录
+            </div>
+        </div>
+    </div>
+
+    <div id="tbh5v0">
+        <!--------筛选 form 表单 开始-------------->
+        <div class="order ajax_return" style="padding-top: 45px">
+            <empty name="list">
+                <div id="list_0_0" class="font12">暂无充值记录！</div>
+            <else/>
+                <volist name="list" id="list">
+                    <div class="order_list">
+                        <dl>
+                            <dd class="name" style="font-size: 14px;width: 70%">
+                                流水账号：{$list['payid']}
+                            </dd>
+
+                            <dd class="pice" style="overflow:visible;color: #efa164;line-height: inherit">
+                                <if condition="$list['egold'] eq 0">
+                                    VIP年费会员
+                                    <else/>
+                                    {$list['egold']}书币
+                                </if>
+                            </dd>
+
+                            <dd class="name" style="font-size: 14px;width: 70%">
+                                {$list['buytime']}
+                            </dd>
+
+                            <dd class="pice" style="overflow:visible;line-height: inherit">
+                                <if condition="$list['payflag'] eq 1">
+                                    已支付
+                                <else/>
+                                    未支付
+                                </if>
+                            </dd>
+                        </dl>
+                    </div>
+                </volist>
+            </empty>
+        </div>
+    </div>
+</body>
+</html>

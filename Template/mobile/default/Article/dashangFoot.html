@@ -1,0 +1,315 @@
+<!--start 打赏-->
+<div class="want_dashang" style="display: none;width: 100%;height: 100%;position: relative;z-index: 100;">
+    <div class="want_dashang_top"></div>
+    <div class="want_dashang_bottom">
+        <div style="width:100%;height:20%;margin-top:3%;">
+            <div style="width: 10%;position: relative;left: 3%;top: 8px;">
+                <a href="/User/index.html">
+                    <span style="width: 20%">
+                        <img src="{$userinfo.faceImg}" style="width:36px;border-radius: 18px;">
+                    </span>
+                </a>
+            </div>
+            <div style="position: relative;left:13%;top: -33px;width: 30%;">
+                <a href="/User/index.html">
+                    <p class="bookname" style="font-size: 13px;">
+                        {$userinfo.name}
+                    </p>
+                    <p class="bookinfo" style="font-size: 12px;margin-top: -10px;height: 20px;color:#f89345">
+                        {$userinfo.egold} 书币
+                    </p>
+                </a>
+            </div>
+            <div style="position: relative;right:-75%;top: -72px;width: 30%;text-align: center;line-height: 20px;">
+                <if condition="($isweixin neq 1)">
+                    <a href="{:U('Mobile/User/buyEgold')}"  style="font-size: 15px;color:#f89345;">
+                        充值
+                    </a>
+                    <else/>
+                    <a href="{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}"  style="font-size: 15px;color:#f89345;">
+                        充值
+                    </a>
+                </if>
+                <!-- <a href="/User/buyEgold.html" style="font-size: 15px;color:#f89345;">充值</a> -->
+            </div>
+        </div>
+        <div class="dashang_icon_all">
+            <ul style="width:100%">
+                <li data-val="10" data-type="1"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv01.png"></li>
+                <li class="active" data-val="100" data-type="2"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv02.png"></li>
+                <li data-val="500" data-type="3"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv03.png"></li>
+                <li data-val="1000" data-type="4"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv04.png"></li>
+                <li data-val="5000" data-type="5"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv05.png"></li>
+                <li data-val="10000" data-type="6"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv06.png"></li>
+                <li data-val="100000" data-type="7"><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv07.png"></li>
+            </ul>
+        </div>
+        <div class="want_egold">
+            <span style="font-size: 13px;">数量</span>
+            <i class="fa fa-minus yunsuan jian"></i>
+            <input type="text" value="1" name="count" readonly="readonly" style="border: none;width: 32px;text-align: center;">
+            <!--<span class="count" style="text-align: center;font-size: 12px;margin:0px 3px;">1</span>-->
+            <i class="fa fa-plus yunsuan jia"></i>
+            <span style="font-size: 13px;margin-left: 15px">需：</span>
+            <span class="egold" style="font-size: 12px;color:#f89345;">100</span>
+            <span style="font-size: 12px;color: #BBB">书币</span>
+            <a href="javascript:void(0);" class="zengsong"
+               data-uid="{$userinfo.uid}" data-articleid="{$book_info.articleid}" data-chapterid="{$book_info.lastchapterid}" date-egold="{$userinfo.egold}">
+                赠送
+            </a>
+        </div>
+    </div>
+</div>
+<!--end 打赏-->
+
+<!--start 催更-->
+<div class="want_cuigeng" style="display: none;width: 100%;height: 100%;position: relative;z-index: 100;">
+    <div class="want_cuigeng_top"></div>
+    <div class="want_cuigeng_bottom">
+        <div style="width:100%;height:20%;margin-top:3%;">
+            <div style="width: 10%;position: relative;left: 3%;top: 8px;">
+                <a href="/User/index.html">
+                    <span style="width: 20%">
+                        <img src="{$userinfo.faceImg}" style="width:36px;border-radius: 18px;">
+                    </span>
+                </a>
+            </div>
+            <div style="position: relative;left:13%;top: -33px;width: 30%;">
+                <a href="/User/index.html">
+                    <p class="bookname" style="font-size: 13px;">
+                        {$userinfo.name}
+                    </p>
+                    <p class="bookinfo" style="font-size: 12px;margin-top: -10px;height: 20px;color:#f89345">
+                        {$userinfo.egold} 书币
+                    </p>
+                </a>
+            </div>
+            <div style="position: relative;right:-75%;top: -72px;width: 30%;text-align: center;line-height: 20px;">
+                <if condition="($isweixin neq 1)">
+                    <a href="{:U('Mobile/User/buyEgold')}"  style="font-size: 15px;color:#f89345;">
+                        充值
+                    </a>
+                    <else/>
+                    <a href="{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}"  style="font-size: 15px;color:#f89345;">
+                        充值
+                    </a>
+                </if>
+                <!-- <a href="/User/buyEgold.html" style="font-size: 15px;color:#f89345;">充值</a> -->
+            </div>
+        </div>
+        <div class="cuigeng_icon_all">
+            <ul class="cuiUl">
+                <li class="activeC" data-val="300" data-size="3000"><ul><li>3千字</li><li>更新</li></ul></li>
+                <li data-val="600" data-size="6000"><ul><li>6千字</li><li>更新</li></ul></li>
+                <li data-val="900" data-size="9000"><ul><li>9千字</li><li>更新</li></ul></li>
+                <li data-val="1200" data-size="12000"><ul><li>1.2万字</li><li>更新</li></ul></li>
+                <li data-val="1500" data-size="15000"><ul><li>1.5万字</li><li>更新</li></ul></li>
+                <li data-val="1800" data-size="18000"><ul><li>1.8万字</li><li>更新</li></ul></li>
+            </ul>
+        </div>
+        <div class="want_cui_egold">
+            <span style="font-size: 13px;">请输入催更金额：
+                <input type="text" value="300" name="cui_egold" style="border: none;width: 140px;color: #f89345;">
+                <p style="font-size: 12px;color: #CCC;margin-top:-10px">(书币;不小于100的整数)</p>
+            </span>
+            <a href="javascript:void(0);" class="cuigeng-btn"
+               data-uid="{$userinfo.uid}" data-articleid="{$book_info.articleid}" data-chapterid="{$book_info.lastchapterid}" date-egold="{$userinfo.egold}">
+                催更
+            </a>
+        </div>
+    </div>
+</div>
+<!--end 催更-->
+
+
+
+
+
+<script>
+
+    /*************************daidai**************************************/
+    var isweixin={$isweixin};
+    var useregold={$userinfo['egold']+0};
+
+    var needegoldS=$('.egold').html();
+    var count=$('input[name=count]').val();
+    var countSum=$('.dashang ul li:last').html();
+
+    var needegoldC=$('input[name=cui_egold]').val();
+    var wordsize=$('li[class=activeC]').attr('data-size');
+    var cuiSumegold=$('.cuigeng ul li:last').html();
+
+    var commentCount=$('.pinglun ul li:last').html();
+
+    /*****设置打赏弹出框***********************************************/
+    $('.dashang').click(function(){
+        $('.want_dashang').fadeIn('fast');
+    });
+    $('.want_dashang_top').click(function(){
+        $('.want_dashang').fadeOut('fast');
+    });
+
+    /*点击打赏图标*/
+    /*$('.dashang_icon_all td').click(function(){
+     $(this).parents('table').find('td').removeClass('active');
+     $(this).addClass('active');*/
+    function getyuansuan(_this){
+        var _tdVal=parseInt(_this.attr('data-val'));
+
+        /*点击加减控制书币值*/
+        var countBoj=$('input[name=count]');
+        var _count=parseInt(countBoj.val());
+        var _egold=_tdVal*_count;
+        $('.egold').html(_egold);
+
+        $('.want_egold .jian').click(function(e){
+            e.preventDefault();
+            _count=_count-1;
+            _egold=_tdVal*_count;
+            if(_count<=0){
+                _count=1;
+                _egold=_tdVal;
+            }
+            countBoj.val(_count);
+            $('.egold').html(_egold);
+        });
+
+        $('.want_egold .jia').click(function(e){
+            e.preventDefault();
+            _count=_count+1;
+            _egold=_tdVal*_count;
+            countBoj.val(_count);
+            $('.egold').html(_egold);
+        });
+    }
+    getyuansuan($('.dashang_icon_all li:eq(1)'));
+    $('.dashang_icon_all li').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+        getyuansuan($(this));
+    });
+
+    /*打赏_赠送btn*/
+    $('.zengsong').click(function(){
+        var uid=$(this).attr('data-uid');
+        var articleid=$(this).attr('data-articleid');
+        var chapterid=$(this).attr('data-chapterid');
+        var giftstype=$('li[class=active]').attr('data-type');
+        count=$('input[name=count]').val();
+        needegoldS=$('.egold').html();
+        $.ajax(
+            {
+                type    : "POST",
+                url     : "/index.php?m=Mobile&c=Gifts&a=index",
+                data    : {uid:uid,articleid:articleid,chapterid:chapterid,giftstype:giftstype,count:count,needegold:needegoldS} ,
+                success : function(data)
+                {
+                    $('.want_dashang').fadeOut('fast');
+                    successLater(data);
+
+                    $('.dashang_icon_all ul li').removeClass('active');
+                    $('.dashang_icon_all ul li:eq(1)').addClass('active');
+                    $('input[name=count]').val(1);
+                    $('.egold').html(100);
+                    countSum=parseInt(countSum)+parseInt(count);
+                    $('.dashang ul li:last').html(countSum);
+                    commentCount=parseInt(commentCount)+1;
+                    $('.pinglun ul li:last').html(commentCount);
+                }
+            });
+    });
+
+
+    /*****设置催更弹出框*************************************************/
+    $('.cuigeng').click(function(){
+        $('.want_cuigeng').fadeIn('fast');
+    });
+    $('.want_cuigeng_top').click(function(){
+        $('.want_cuigeng').fadeOut('fast');
+    });
+    /*$('.cuigeng_icon_all table tr td').click(function(){
+     $(this).parents('table').find('td').removeClass('activeC');
+     $(this).addClass('activeC');*/
+    $('.cuigeng_icon_all .cuiUl>li').click(function(){
+        $(this).addClass('activeC').siblings().removeClass('activeC');
+
+        var _tdVal=parseInt($(this).attr('data-val'));
+
+        $('input[name=cui_egold]').val(_tdVal);
+    });
+    /*催更*/
+    $('.cuigeng-btn').click(function(){
+        var uid=$(this).attr('data-uid');
+        var articleid=$(this).attr('data-articleid');
+        var chapterid=$(this).attr('data-chapterid');
+        wordsize=$('li[class=activeC]').attr('data-size');
+        needegoldC=$('input[name=cui_egold]').val();
+
+        if(needegoldC<100){
+            layer.open({
+                content: '催更金额不得少于100'
+                ,skin: 'msg'
+                ,time: 1 //2秒后自动关闭
+                ,end:function(){
+                    location.reload();
+                }
+            });
+            return false;
+        }
+
+        $.ajax(
+            {
+                type    : "POST",
+                url     : "/index.php?m=Mobile&c=Gifts&a=urgeUpdate",
+                data    : {uid:uid,articleid:articleid,chapterid:chapterid,wordsize:wordsize,needegold:needegoldC} ,
+                success : function(data)
+                {
+                    $('.want_cuigeng').fadeOut('fast');
+                    successLater(data);
+
+                    $('.cuigeng_icon_all .cuiUl li').removeClass('activeC');
+                    $('.cuigeng_icon_all .cuiUl li:eq(0)').addClass('activeC');
+                    $('input[name=cui_egold]').val(300);
+                    cuiSumegold=parseInt(cuiSumegold)+parseInt(needegoldC);
+                    $('.cuigeng ul li:last').html(cuiSumegold);
+                    commentCount=parseInt(commentCount)+1;
+                    $('.pinglun ul li:last').html(commentCount);
+                }
+            });
+    });
+
+
+    function successLater(data){
+        layer.open({
+            content: data.message
+            ,skin: 'msg'
+            ,time: 1 //2秒后自动关闭
+            ,end:function(){
+                if(data.status==-1){
+                    if(isweixin){
+                        $(location).attr('href', "{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}");
+                        /*location.href("{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}");*/
+                    }else{
+                        $(location).attr('href', "{:U('Mobile/User/buyEgold')}");
+                        /*location.href("{:U('Mobile/User/buyEgold')}");*/
+                    }
+                }else if(data.status==1){
+                    /*location.reload();*/
+                    if(data.action=='dashang'){
+                        useregold=useregold-needegoldS;
+                        $('.bookinfo').html(useregold);
+                    }else{
+                        useregold=useregold-needegoldC;
+                        $('.bookinfo').html(useregold);
+                    }
+                }else{
+                    location.reload();
+                }
+            }
+        });
+    }
+    /****评论****/
+    $('.pinglun').click(function(){
+        /*$(location).attr('href', "/index.php/Article/index/id/{$chapter['articleid']}");*/
+        $(location).attr('href', "/Gifts/comment/articleid/{$book_info['articleid']}.html");
+    });
+</script>

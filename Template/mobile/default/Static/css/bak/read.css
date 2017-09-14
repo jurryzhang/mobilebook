@@ -1,0 +1,65 @@
+.start-mask .mask-border{width: 80%; border-left: 2px solid #6e6e6e; border-right: 2px solid #6e6e6e;  margin: 0 auto; height: 100%;color: #f2f2f2;}
+ .start-mask .mask-border .p1{text-align: center; font-size: 16px; position: fixed; top: 42%; right: 0; left: 0;}
+ .start-mask .mask-border .p2{text-align: center; font-size: 16px; position: fixed; bottom: 0; left: 0; right: 0; top: 91%;}
+ .start-mask{position: fixed; top: 0px; filter: alpha(opacity=60); background-color: #000;  z-index: 1; left: 0px;  opacity:0.7; -moz-opacity:0.5; display: none;}
+ .chapter{background: #eaeaea}
+.chapter_content {font-size: 18px;text-align: left;text-indent: 2em;padding: 20px;color:black;clear:both;}
+.config {float: right;  margin-right: 10px;  }
+.config a{text-decoration: none;color: #666;}
+.config span i {
+    background: url(../images/chapter-night-icon.png) no-repeat left bottom;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: -5px;
+}
+.config span {
+	height: 34px;
+    border-radius: 50%;
+    line-height: 34px;
+    font-size: 14px;
+    display: inline-block;
+    width: 34px;
+    margin-left: 5px;
+    text-align: center;
+    background: #d6d6d6;
+    cursor: pointer;
+}
+.night .config span {
+    background: #474747;
+}
+.night .config span i {
+    width: 19px;
+    height: 19px;
+    background-position: 0 0;
+    vertical-align: -6px;
+}
+.tborder
+{
+    border-top: dotted #666 1px;
+}
+.read_vf_nav
+{
+    display: flex;
+}
+.read_vf_nav div
+{
+    width: 40%;
+    text-align: center;
+}
+
+.read_vf_nav div span
+{
+    color: #333;
+    font-size: 16px;
+}
+.read_vf_nav .catalogue
+{
+    width: 30%;
+}
+
+/*burn添加，2017-03-22*/
+.read_vf_nav span
+{
+    font-size: 14px;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta name="Generator"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+        <title>{$site_title}</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/public.css"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/index.css"/>
+
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/category_list.css"/>
+		<link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/jquery.json.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/touchslider.dev.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+        <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+
+        <style type="text/css">
+            /*滑动设置*/
+            /*.read_set{width: 100%;height:50px;background: rgba(0,0,0,0.75);position: fixed;bottom: 0}
+            .read_set li{text-align: center;line-height:40px;}
+            .set_size{
+                margin-left: 10px;height: 50%;
+                vertical-align:middle;color: #ffffff;padding: 7px 10px;font-size: 14px;
+            }*/
+			.sortBtn{
+                background:#FFFFff;
+                text-align:center;
+                font-size: 16px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                line-height: 24px;
+                border-top: 1px solid #efefef;
+                border-bottom: 1px solid #efefef;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="page" class="showpage">
+            <div class="header">
+                <div class="h-left">
+                    <a class="sb-back" href="javascript:history.back(-1);" title="返回" target="_self">
+                    </a>
+                </div>
+
+                <div class="h-mid">
+                    目录
+                </div>
+				
+				<div style="float: right;margin-top: 5px;margin-right: 7%;">
+                    <a href="/" title="主页" target="_self" >
+                        <i class="fa fa-home" style="font-size: 30px;"></i>
+                    </a>
+                </div>
+
+            </div>
+			
+			<!-- 正序倒序 -->
+			<div class="sortBtn">
+                <!--<li>
+                    <label class="set_size" style="margin-right: 8%"  onclick="chapterSort('ASC');">正序</label>
+                    <label class="set_size">|</label>
+                    <label class="set_size"  style="margin-right: 8%;margin-left: 8%" onclick="goTop();">顶部</label>
+                    <label class="set_size">|</label>
+                    <label class="set_size"  style="margin-left: 8%" onclick="chapterSort('DESC');">倒序</label>
+                </li>-->
+                <ul>
+                    <li onclick="chapterSort('ASC');" style="float: left;width: 50%;background: #FFFFff;padding-bottom: 10px;">                     
+                        <i class="fa fa-sort-amount-asc"></i>
+						正序
+                    </li>
+                    <li onclick="chapterSort('DESC');" style="float: left;width: 50%;background: #FFFFff;padding-bottom: 10px;">                        
+                        <i class="fa fa-sort-amount-desc"></i>
+						倒序
+                    </li>
+                </ul>
+            </div>
+			
+            <section class="index_floor_lou" >
+                <div class="touchweb-com_searchListBox openList" id="chapter_list" style="margin-bottom: 30px">
+                    <empty name="chapterlist">
+                        <p class="goods_title">抱歉暂时没有相关结果！</p>
+                    <else />
+                        <foreach name="chapterlist" key="key" item="value">
+                            <if condition="$value['size'] neq 0">
+                                <a href="{:U('Article/readChapter',array('chapter_id' => $value['chapterid'],'book_id' => $bookid))}" >
+                                    <div style="padding-left: 20px;font-size: 14px;padding-top: 10px;padding-bottom: 10px;line-height: 24px;border-top: 1px solid #efefef;border-bottom: 1px solid #efefef;text-align: left" >
+                                        {$value.chaptername}
+                                        <span style="float: right;padding-right: 20px">
+                                            <!-- <if  condition="$value['isvip'] eq 1">
+                                                 <i class="fa  fa-diamond"></i>
+                                            </if> -->
+											<if condition="$value['isvip'] eq 1">
+                                                <if condition="$isFreeLimit eq 1">
+                                                    <i class="fa fa-clock-o" style="color: #C00;"></i> <span style="color: #C00;">限免</span>
+                                                    <else/>
+                                                    <i class="fa fa-diamond"></i>
+                                                </if>
+                                            </if>
+                                        </span>
+                                    </div>
+                                </a>
+                            <else/>
+                                <div style="padding-left: 20px;font-size: 14px;padding-top: 10px;padding-bottom: 10px;line-height: 24px;border-top: 1px solid #efefef;border-bottom: 1px solid #efefef;text-align: left;color: #960" >
+                                    {$value.chaptername}
+                                    <span style="float: right;padding-right: 20px">
+                                        <if  condition="$value['isvip'] eq 1">
+                                             <i class="fa  fa-diamond"></i>
+                                        </if>
+                                    </span>
+                                </div>
+                            </if>
+                        </foreach>
+                    </empty>
+					<div style="font-size: 13px;display: none;text-align: center;" id="image">
+                        <img src="__STATIC__/images/loading.gif"> 加载中...
+                    </div>
+                </div>
+
+                <!--<notempty name="chapterlist">
+                    <div id="getmore" style="font-size:.24rem;text-align: center;color:#888;padding:.25rem .24rem .4rem; clear:both;margin-bottom: 40px">
+                        <a href="javascript:void(0)" onClick="ajax_sourch_submit()">
+                            点击加载更多
+                        </a>
+                    </div>
+                </notempty>-->
+            </section>
+
+            <!-- <div class="read_set" style="display: none;">
+                <li>
+                    <label class="set_size"  onclick="chapterSort('ASC');">正序</label>
+                    <label class="set_size">|</label>
+                    <label class="set_size"  onclick="goTop();">顶部</label>
+                    <label class="set_size">|</label>
+                    <label class="set_size"  onclick="chapterSort('DESC');">倒序</label>
+                </li>
+            </div> -->
+
+            <script>
+                $(function()
+                {
+                    width = document.documentElement.clientWidth - 160;
+
+                    width = 0.9 * width;
+
+                    $('.bookleft').css({width:width});
+                });
+
+                function goTop()
+                {
+                    $('html,body').animate({'scrollTop':0},600);
+                }
+
+
+                /*** ajax 提交表单 查询订单列表结果*/
+                /*function ajax_sourch_submit()
+                {
+                    page += 1;
+
+                    pageIndex = page;
+
+                    $.ajax(
+                    {
+                        type : "GET",
+                        url  :  "/Article/ajaxDirectoryList/is_ajax/1/articleid/{$value.articleid}/p/" + pageIndex + ".html",//+tab,
+
+                        success: function(data)
+                        {
+                            if($.trim(data) == '')
+                            {
+                                $('#getmore').hide();
+                            }
+                            else
+                            {
+                                $("#chapter_list").append(data);
+                            }
+                        }
+                        });
+                }*/
+                var page = 1;
+                var times=0;
+
+                $(window).scroll(function () {
+                    //正序倒序
+                    /*$(".read_set").fadeIn();*/
+
+                    //阅读章节自动加载
+                    var scrollTop = $(this).scrollTop();
+                    var scrollHeight = $(document).height();
+                    var windowHeight = $(this).height();
+                    var positionValue = (scrollTop + windowHeight) - scrollHeight;
+                    if (positionValue == 0 && times<1) {
+                        $("#image").css("display","block");
+                        page += 1;
+                        pageIndex = page;
+                        $.ajax({
+                            type : "GET",
+                            url  :  "/Article/ajaxDirectoryList/is_ajax/1/articleid/{$value.articleid}/p/" + pageIndex + "/sorttype/{$sorttype}.html",//+tab,
+
+                            success: function(data) {
+                                $("#image").css("display","none");
+                                if($.trim(data) != '')
+                                {
+                                    $('#image').before(data);
+                                    /*$("#chapter_list").append(data);*/
+                                }else{
+                                    if(times<1){
+                                        times++;
+                                        $('#image').before('<div style="text-align: center;font-size: 13px;color:#CCC;margin-top:20px;">---------------^o^我是有底线的---------------</div>');
+                                    }
+                                }
+                            }
+                        });
+                    }
+                });
+
+                function chapterSort(sorttype){
+                    window.location="/Article/getDirectory/id/{$bookid}/sorttype/"+sorttype+".html";
+                }
+
+                $('.read_set').click(function(){
+                    $(this).hide();
+                });
+
+
+            </script>
+
+            <!--<a href="javascript:goTop();" class="gotop">
+                <img src="__STATIC__/images/topup.png">
+            </a>-->
+        </div>
+    </body>
+</html>

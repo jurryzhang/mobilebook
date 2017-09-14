@@ -1,0 +1,131 @@
+<include file="Public/header"/>
+    <body>
+        <include file="Public/header_nav"/>
+      <form action="" id="search-form2" class="navbar-form form-inline" method="post" onsubmit="return false">
+      <input type="hidden" id="groupid" name="groupid" value="">
+      <input type="hidden" id="sortid" name="sortid" value="">
+            <ul class="category">
+                <li class="fgroup"><label><b>类型:</b></label></li>
+     
+                <li class="group active" data-id="2">  男生 </li>
+                <li class="group <if condition='$groupid eq $v1.groupid'>active</if>" data-id="1">  女生 </li>       
+            </ul>
+            <div style="clear:both;"></div>
+            <ul class="category">
+                 <li id="category" class="ffcate"><label><b>分类:</b></label></li>
+                 
+                 <li class="cate selactive" data-id="0" >全部</li>
+                <foreach name="sortList" key="k1" item="v1">
+                    <li class="cate" style="float:left;margin-left: 10px; " data-id="{$v1.sortid}">
+                        
+                        <span class="catename" style="padding-top: 10%;text-align:center">
+                            {$v1.caption}
+                        </span>
+                        
+                    </li>
+                </foreach>
+                
+            <!-- <include file="Public/footer_nav"/> -->
+            </ul>
+            </form>
+            <div style="clear:both;"></div>
+           
+            
+        <section id="ajax_return_channel">
+               
+        </section>
+        <script>
+            $(function()
+            {
+                
+                page =1
+                ajax_get_table('search-form2',page);
+
+            });
+
+            $(".group").live("click",function(){
+                groupid = $(this).attr('data-id');
+                cateid = 0;
+                $('.selactive').removeClass('selactive');
+                $('#fcate').addClass('selactive');
+                html=''
+                html += "<li id='fcate' class='cate selactive' data-id='0'>全部</li>";
+                $.ajax({
+                    type:'POST',
+                    url:"/index.php?m=Mobile&c=Index&a=getSortList",
+                    data:{groupid:groupid,cateid:cateid},
+                    success : function(data){
+                        $('.cate').remove();
+                        $.each(data,function(i,n){
+                            
+
+                            html+="<li class='cate' data-id='"+n.sortid+"'>";
+                            html+= "<span class='catename' style='padding-top: 10%;text-align:center'>"+n.caption+"</span>";
+                            html+="</li>";
+                                                                                       
+                        });
+                        //$("#fcate").remove();
+                        //console.log(html);
+                        $("#category").after(html);
+                        
+
+                    }
+
+                });
+                    
+                  $('.active').removeClass('active');
+                         $(this).addClass('active');
+                        ajax_get_table("search-form2",1); 
+            });
+
+
+
+            function ajax_get_table(form,page)
+            {
+                $("#groupid").val($('.active').attr('data-id')) ;
+                $("#sortid").val($('.selactive').attr('data-id')) ;
+                //alert(111);
+                $.ajax(
+                {
+                    type    : "POST",
+                    url     : "/index.php?m=Mobile&c=Index&a=getCateBook&p="+page,
+                    data    : $('#' + form).serialize(),// 你的formid
+
+                    success : function(datas)
+                    {
+                        //$("#orderBtnGroup").children().removeClass("btn-primary active");
+                        //console.log(datas);
+                        $("#ajax_return_channel").html('');
+
+                        $("#ajax_return_channel").append(datas);
+
+                        //ajax_get_table2('search-form2');
+
+
+                    },
+                    error   : function(datas)
+                    {
+                        alert('error -- data = ' + datas.responseText);
+                    }
+                });
+            }
+            //点击分类切换
+            $('.cate').live("click",function(){
+                
+                $('.selactive').removeClass('selactive');
+                $(this).addClass('selactive');
+                ajax_get_table('search-form2',1);
+            });
+            function goTop()
+            {
+                $('html,body').animate({'scrollTop':0},600);
+            }
+
+             
+        </script>
+
+            
+
+        
+    </body>
+</html>

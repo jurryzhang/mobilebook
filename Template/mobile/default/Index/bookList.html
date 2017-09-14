@@ -1,0 +1,124 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta name="Generator"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+    <title>{$site_title}</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/index.css"/>
+	<link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/category_list.css"/>
+
+    <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/jquery.json.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/touchslider.dev.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+    <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+</head>
+
+    <body>
+        <div id="page" class="showpage">
+          <!--   <div class="header">
+                <div class="h-left">
+                    <if condition="$action eq 'searchBook'">
+                        <a class="sb-back" href="/index.php/Index/search/keyWord/{$keyWord}" title="返回"></a>
+                        <else/>
+                        <a class="sb-back" href="javascript:history.back(-1);" title="返回"></a>
+                    </if>
+                </div>
+
+                <div class="h-mid">
+                    {$site_title}
+                </div>
+				
+				<div style="float: right;margin-top: 5px;margin-right: 7%;">
+                    <a href="/" title="主页" target="_self" >
+                        <i class="fa fa-home" style="font-size: 30px;"></i>
+                    </a>
+                </div>
+				
+            </div> -->
+            <include file="Public/header_nav"/>
+            <section class="index_floor_lou">
+				<empty name="resultbooklist">
+                    <div style="text-align: center;padding-top: 2%;padding-bottom: 2%">
+                        <span style="background: transparent;font-size:14px;text-align: center;">
+                        抱歉,未找到相关书籍
+                    </span>
+                    </div>
+                <else/>
+					<volist name="resultbooklist" id="book">
+						<div class="floor_body"  style="border-top: 0px;">
+							<div id="scroll_promotion">
+								<ul>
+									<li>
+										<a href="{$book.url}" title="1" class="flex">
+											<div class="cover">
+												<img  alt="{$book.info.articlename}" src="{$book.cover}">
+											</div>
+
+											<div class="bInfo" id="bookintro">
+												<h4 class="bookname">
+													{$book.info.articlename}
+													<!-- <span class="booksort">
+														{$book.info.sort}
+													</span> -->
+												</h4>
+												<p class="bookinfo" >
+													{$book.info.intro}
+												</p>
+												<!-- <p class="bookauthor" >
+													<span>
+														{$book.info.author}
+													</span>
+
+													<span class="booksize">
+														{$book.info.size}
+													</span>
+
+													<span class="booksort">
+														{$book.info.sort}
+													</span>
+												</p> -->
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</volist>
+				</empty>
+            </section>
+
+            <script>
+                $(function()
+                {
+                    width = document.documentElement.clientWidth - 112;
+
+                    width = 0.9 * width;
+
+                    $('.bookleft').css({width:width});
+                });
+
+                function goTop()
+                {
+                    $('html,body').animate({'scrollTop':0},600);
+                }
+            </script>
+
+            <!-- <a href="{:U('Mobile/User/getBookCase')}" class="gotoBookshelf">
+                <img src="__STATIC__/images/bottom_img/bookshelf.png">
+            </a>
+
+            <a href="javascript:goTop();" class="gotop">
+                <img src="__STATIC__/images/topup.png">
+            </a> -->
+
+        </div>
+    </body>
+</html>

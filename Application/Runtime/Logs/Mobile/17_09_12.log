@@ -1,0 +1,1014 @@
+[ 2017-09-12T08:37:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\ThinkPHP\Library\Think\Db\Driver.class.php 第 546 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 354 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-09-12T08:37:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 65 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\ThinkPHP\Library\Think\Db\Driver.class.php 第 546 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 354 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:05:45+08:00 ] 127.0.0.1 /Article/index/id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 30 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 32 行.
+NOTIC: [8] Undefined index: author D:\xampp\htdocs\mobilebook\Application\Mobile\Common\function.php 第 181 行.
+NOTIC: [8] Undefined index: size D:\xampp\htdocs\mobilebook\Application\Mobile\Common\function.php 第 183 行.
+NOTIC: [8] Undefined index: intro D:\xampp\htdocs\mobilebook\Application\Mobile\Common\function.php 第 185 行.
+NOTIC: [8] Undefined index: fullflag D:\xampp\htdocs\mobilebook\Application\Mobile\Common\function.php 第 189 行.
+NOTIC: [8] Undefined index: thirdsourceid D:\xampp\htdocs\mobilebook\Application\Mobile\Common\function.php 第 199 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) ORDER BY addtime DESC LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT `userid`,`username`,`content`,`addtime`,`replay` FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) ORDER BY addtime DESC LIMIT 5  
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 114 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 51 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 60 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 69 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 77 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 88 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 150 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 151 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 152 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 153 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 154 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 155 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 156 行.
+NOTIC: [8] Undefined variable: chapter D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 571 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:05:50+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196350')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:07:13+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196432')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:07:25+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196445')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T14:07:51+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196471')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T14:08:43+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196523')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T14:09:07+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196547')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:09:21+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196561')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:15:16+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196916')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:15:26+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196926')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T14:15:29+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196929')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:15:37+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196937')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:15:42+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196942')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:15:50+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603298.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1505196950')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 561 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-12T14:39:36+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603299/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603299.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603299','第002章 离异美女','2','1505198376')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T14:39:36+08:00 ] 127.0.0.1 /audio/2/2015/603299/603299-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:42:11+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603300/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603300.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603300','第003章 叫姐姐','3','1505198531')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:42:11+08:00 ] 127.0.0.1 /audio/2/2015/603300/603300-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:45:20+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603301/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603301.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603301','第004章 立功','4','1505198720')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:45:21+08:00 ] 127.0.0.1 /audio/2/2015/603301/603301-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:47:51+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603302/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603302.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603302','第005章 敢对领导动手','5','1505198871')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T14:47:51+08:00 ] 127.0.0.1 /audio/2/2015/603302/603302-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:50:27+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603303/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603303.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603303','第006章 伤心事','6','1505199027')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-12T14:50:27+08:00 ] 127.0.0.1 /audio/2/2015/603303/603303-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:53:41+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603304/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603304.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603304','第007章 这家伙大脑不正常','7','1505199221')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:53:41+08:00 ] 127.0.0.1 /audio/2/2015/603304/603304-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T14:56:16+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603305/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603305.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603305','第008章 嚣张无比','8','1505199376')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T14:56:16+08:00 ] 127.0.0.1 /audio/2/2015/603305/603305-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T15:12:13+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603306/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603306.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603306','第009章 罗军的隐情','9','1505200332')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-09-12T15:12:13+08:00 ] 127.0.0.1 /audio/2/2015/603306/603306-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T15:15:45+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603307/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603307.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603307','第010章 男儿有泪不轻弹','10','1505200545')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:15:46+08:00 ] 127.0.0.1 /audio/2/2015/603307/603307-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T15:19:51+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603308/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603308.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603308','第011章 刀口舔血','11','1505200791')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:19:51+08:00 ] 127.0.0.1 /audio/2/2015/603308/603308-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T15:29:11+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603309/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603309.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603309','第012章 我绝对是男的','12','1505201351')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T15:29:11+08:00 ] 127.0.0.1 /audio/2/2015/603309/603309-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+
+[ 2017-09-12T17:30:05+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603310/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [2] file_get_contents(/2/2015/603310.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Model\BookModel.class.php 第 180 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 921 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 952 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 954 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603310','第013章 奇葩的保安啊','13','1505208605')
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 402 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 403 行.
+NOTIC: [2] file_put_contents(./LOG_DAISY/readChapter.txt): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 411 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-12T17:30:05+08:00 ] 127.0.0.1 /audio/2/2015/603310/603310-1.mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Audio
+

@@ -1,0 +1,108 @@
+<include file="Public/header"/>
+<body>
+    <div class="tab_nav">
+        <div class="header">
+            <div class="h-left">
+                <a class="sb-back" href="javascript:history.back(-1);" title="返回" target="_self"></a>
+            </div>
+
+            <div class="h-mid" style="width: 80%;float: left">
+                个人信息修改
+            </div>
+        </div>
+    </div>
+
+    <div id="tbh5v0" style="margin-top: 45px">
+        <div class="Personal">
+            <div id="tbh5v0">
+                <div class="innercontent1" >
+                    <form method="post" action="" id="edit_profile"  onSubmit="return checkinfo()">
+                        <div class="name1">
+                            <span>性　 别</span>
+
+                            <ul>
+                                <if condition = "$sex eq 0">
+                                    <li class='on'>
+                                        <else />
+                                    <li>
+                                </if>
+                                <label for="sex0">
+                                    <input type="radio" name="sex" value="0" tabindex="2" class="radio" id="sex0"/>
+                                    保密
+                                </label>
+                                </li>
+
+
+                                <if condition = "$sex eq '1'">
+                                    <li class='on'>
+                                        <else />
+                                    <li>
+                                </if>
+                                <label for="sex1">
+                                    <input type="radio" name="sex" value="1"  tabindex="3" class="radio" id="sex1"/>
+                                    男
+                                </label>
+                                </li>
+
+                                <if condition = "$sex eq '2'">
+                                    <li class='on'>
+                                        <else />
+                                    <li>
+                                </if>
+                                <label for="sex2">
+                                    <input type="radio" name="sex" value="2"  tabindex="4" class="radio" id="sex2" />
+                                    女
+                                </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="field submit-btn">
+                            <input type="submit" value="确认修改" class="btn_big1" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.name1 ul li').click(function()
+            {
+                $(this).find("input").attr("checked","checked");
+                $('.name1 ul li').removeClass("on");
+                $(this).addClass("on");
+            })
+        </script>
+    </div>
+
+    <script language="javascript">
+        $(function()
+        {
+            $('input[type=text],input[type=password]').bind(
+                {
+                    focus:function()
+                    {
+                        $(".global-nav").css("display",'none');
+                    },
+                    blur:function()
+                    {
+                        $(".global-nav").css("display",'flex');
+                    }
+                });
+        })
+
+        function checkinfo()
+        {
+            var nickname = $('#nickname').val();
+
+            if(nickname=='')
+            {
+                alert("昵称不能为空");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

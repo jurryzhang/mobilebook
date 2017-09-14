@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <rewrite>
+            <rules>
+                <rule name="已导入的规则 1">
+                    <match url="^$" ignoreCase="false" />
+                    <action type="Rewrite" url="index.php" />
+                </rule>
+                <rule name="已导入的规则 2">
+                    <match url="^(.*)/(.*).html$" ignoreCase="false" />
+                    <action type="Rewrite" url="/index.php?s=/{R:1}/{R:2}" appendQueryString="false" />
+                </rule>
+                <rule name="已导入的规则 3">
+                    <match url="^(.*)/index.php/(.*)/(.*).html$" ignoreCase="false" />
+                    <action type="Rewrite" url="{R:1}/index.php?s=/{R:2}/{R:3}.html" appendQueryString="false" />
+                </rule>
+				
+				 <rule name="已导入的规则 4">
+                    <match url="^(.*)ziycw/(.*)/(.*)$" ignoreCase="false" />
+                    <action type="Rewrite" url="{R:1}/index.php?s=/ziycw/{R:2}/{R:3}.html" appendQueryString="false" />
+                </rule>
+				
+            </rules>
+            
+        </rewrite>
+    </system.webServer>
+</configuration>

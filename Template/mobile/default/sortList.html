@@ -1,0 +1,59 @@
+<include file="Public/header"/>
+    <body>
+        <include file="Public/header_nav"/>
+         <!-- <div id="page" class="showpage">
+            <div class="header">
+                <div class="h-left">
+                    <a class="sb-back" href="javascript:history.back(-1);" title="返回"></a>
+                </div>
+                <div class="h-mid">
+                    {$site_title}
+                </div>
+            </div>  -->
+            
+            <foreach name="sortList" key="k" item="v">
+            <section class="index_floor_lou" >
+                    <div class="floor_body"  style="border-top: 0px;padding-top: 10px;">
+                        <div style="text-align: center;margin: 0 5%;" id="scroll_promotion">
+                            <p style="color: {$v.color};border-bottom:1px solid #ddd;padding-bottom:10px;"> | {$v.group}分类 |</p>
+                            <foreach name="v['sort']" key="k1" item="v1">
+                                <div style="width: 32%;float: left">
+                                    <a href="__CONTROLLER__/getBookListFromSortID/sort_id/{$v1.sortid}.html" title="1">
+                                            <span class="bookname" style="padding-top: 10%;text-align:center">
+                                                {$v1.caption}
+                                            </span>
+                                    </a>
+                                </div>
+                            </foreach>
+
+                        </div>
+                    </div>
+
+            </section>
+            </foreach>
+
+            <!-- <include file="Public/footer_nav"/> -->
+
+            <script>
+                $(function()
+                {
+                    width = document.documentElement.clientWidth - 112;
+
+                    width = 0.9 * width;
+
+                    $('.bookleft').css({width:width});
+                });
+
+                function goTop()
+                {
+                    $('html,body').animate({'scrollTop':0},600);
+                }
+            </script>
+
+            <!-- <a href="javascript:goTop();" class="gotop">
+                <img src="__STATIC__/images/topup.png">
+            </a> -->
+
+        </div>
+    </body>
+</html>

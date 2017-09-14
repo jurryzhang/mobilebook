@@ -1,0 +1,211 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta name="Generator"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+    <title>{$site_title}</title>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/read.css">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/readVipChapter.css">
+    <link rel="stylesheet" type="text/css" href="__STATIC__/css/showBuyInfo.css">
+    <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/jquery.json.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/touchslider.dev.js"></script>
+    <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+    <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+    <link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+</head>
+
+<body class="chapter" data-con="read_cont">
+    <div class="ceng" style="display: none"></div>
+    <div id="page">
+        <div class="h-left">
+            <a class="sb-back" href="javascript:history.back(-1)" title="返回" target="_self">
+            </a>
+        </div>
+        <div style="float: right;margin-top: 5px;margin-right: 20px;">
+            <a href="/" title="主页" target="_self" >
+                <i class="fa fa-home" style="font-size: 30px;"></i>
+            </a>
+
+        </div>
+
+        <div>
+            <section>
+                <div>
+                    <h1 class="read_title">
+                        {$chapter.chaptername}
+                    </h1>
+
+                    <div class="read_instr">
+                        <diV class="read_info">
+                            <a href="{:U('Article/index',array('id' => $chapter['articleid']))}" >
+                                <img src="{$chapter.cover}" style="width: 50px;height: 50px;float: left;margin-left: 30px;border-radius: 50%;" >  </a>
+                            <div class="red_info_right" style="float: left;text-align: left;margin-top: 0px;">
+                                <a href="{:U('Article/index',array('id' => $chapter['articleid']))}" style="text-decoration: none">
+                                    <li style="margin-left: 10px;font-size: 15px;" >{$chapter.articlename}</li>
+                                    <li style="margin-left: 10px;font-size: 12px;margin-top:-10px;">{$chapter.author}</li>
+                                </a>
+                            </div>
+                        </diV>
+                        <div class="config">
+                                    <span class="night">
+                                        <a href="javascript:;" class="szbut_a" data-act="read_mode">
+                                            <i></i>
+                                        </a>
+                                    </span>
+                           <!-- <span>
+                                        <a href="javascript:;" data-act="read_act" data-name="plus">+A</a>
+                                    </span>
+                            <span>
+                                        <a href="javascript:;" data-act="read_act" data-name="less">-A</a>
+                                    </span>-->
+                        </div>
+                        <div class="chapter_content" data-act="read_content">
+                            <p>
+                                {$chapter.summary}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="tip">--- VIP章节需要购买后阅读 ---</div>
+        <div class="bugchapter md-trigger" data-modal="modal-3">订阅购买</div>
+
+        <script type="text/javascript" src="__STATIC__/js/wapmfds/spin.min.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/wapmfds/showBuyInfo.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/wapmfds/classie.js"></script>
+        <script>
+            // this is important for IEs
+            var polyfilter_scriptpath = '/__STATIC__/js/wapmfds/';
+        </script>
+    </div>
+    <script type="text/javascript">
+        $(function()
+        {
+            width = document.documentElement.clientWidth - 112;
+
+            width = 0.9 * width;
+
+            $('.bookleft').css({width:width});
+
+            $('#search_text').click(function()
+            {
+                $(".showpage").children('div').hide();
+                $("#search_hide").css('position','fixed').css('top','0px').css('width','100%').css('z-index','999').show();
+            })
+
+            $('#get_search_box').click(function()
+            {
+                $(".showpage").children('div').hide();
+                $("#search_hide").css('position','fixed').css('top','0px').css('width','100%').css('z-index','999').show();
+            })
+
+            $("#search_hide .close").click(function()
+            {
+                $(".showpage").children('div').show();
+                $("#search_hide").hide();
+            })
+        });
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            // 阅读页面设置
+            var _content = $("[data-act=read_content]");
+            // 文字样式
+            $("[data-act=read_act]").live('click', function(event) {
+                var _mod = $(this).attr("data-name");
+                var _cont_size = $("[data-act=read_content]").children("p:first").css("font-size");
+                var _cont_marg = $("[data-act=read_content]").children("p:first").css("margin");
+                var _change = 4;
+                if ('plus' === _mod) {
+                    var _last_size = parseInt(_cont_size)+_change;
+                    var _chan_marg = parseInt(_cont_marg)+_change;
+                    if (_last_size>=36){
+                        _last_size=36;
+                        _chan_marg=20;
+                    }
+                } else {
+                    var _last_size = parseInt(_cont_size)-_change;
+                    var _chan_marg = parseInt(_cont_marg)-_change;
+                    if (_last_size<=12){
+                        _last_size=12
+                        _chan_marg=6;
+                    }
+                }
+                // 设置行高和段间距
+                var _last_lh = _last_size + _change*2;
+                //		alert(_last_pm);
+                _content.children("p").css({"font-size":_last_size + "px","line-height":_last_lh + "px","margin":_chan_marg + "px 0"});
+                var _read_str = '{\"fs\":\"'+_last_size + '\",\"lh\":\"'+_last_lh + '\",\"pm\":\"' +_chan_marg + '\"}';
+                //		_read_str = eval("("+_read_str+")");
+                //		console.log(_read_str);
+                $.cookie('shuhai_read_fs',_read_str,{expires:30,path:"/"});
+            });
+            // 夜间模式
+            $("[data-act=read_mode]").live('click', function(event) {
+                var _this_cont = $("[data-con=read_cont]");
+                _this_cont.toggleClass("night");
+                var _color={"bodybg":"#eaeaea","bodybgn":"#1f1c1d","conn":"#353434","conan":"#ffffff","con":"#ffffff","cona":"#0068b7","daycolor":"#999","nightcolor":"#000"};
+                var _read_str="";
+                if(_this_cont.hasClass("night")){
+                    $("body").css("background",_color.bodybgn);
+                    $(".read_vf_nav").css("background",_color.bodybgn);
+                    $(".chapter_content p").css("color",_color.daycolor);
+                    $(".read_vf_nav a").css("color",_color.daycolor);
+                    //			$(".container").css("background",_color.conn);
+                    //			$(".container a").css("color",_color.conan);
+                    _read_str = '{\"bodybg\":\"'+_color.bodybgn + '\",\"con\":\"'+_color.conn + '\",\"cona\":\"'+_color.conan + '\",\"mode\":\"night\",\"fontColor\":\"'+_color.daycolor + '\"}';
+                }else{
+                    $("body").css("background",_color.bodybg);
+                    $(".read_vf_nav").css("background",_color.bodybg);
+                    $(".chapter_content p").css("color",_color.nightcolor);
+                    $(".read_vf_nav a").css("color",_color.nightcolor);
+                    //			$(".container").css("background",_color.con);
+                    //			$(".container a").css("color",_color.cona);
+                    _read_str = '{\"bodybg\":\"'+_color.bodybg + '\",\"con\":\"'+_color.con + '\",\"conan\":\"'+_color.cona + '\",\"mode\":\"day\",\"fontColor\":\"'+_color.nightcolor + '\"}';
+                }
+                //		_read_str = eval("("+_read_str+")");
+                //		console.log(_read_str.bodybg);
+                $.cookie('shuhai_read_mod',_read_str,{expires:30,path:"/"});
+            })
+            init();
+            function init(){
+                if($.cookie("shuhai_read_fs")){
+                    var _fsObj=$.cookie("shuhai_read_fs");
+                    //			console.log(_fsObj);
+                    _fsObj = eval("("+_fsObj+")");
+                    //			console.log(_fsObj.lh);
+                    $("[data-act=read_content]").children("p").css({"font-size":_fsObj.fs + "px","line-height":_fsObj.lh + "px","margin":_fsObj.pm + "px 0"});
+                }
+                if($.cookie("shuhai_read_mod")){
+                    var _modObj=$.cookie("shuhai_read_mod");
+                    _modObj = eval("("+_modObj+")");
+                    $("[data-con=read_cont]").toggleClass(_modObj.mode);
+                    $("body").css("background",_modObj.bodybg);
+                    $(".read_vf_nav").css("background",_modObj.bodybg);
+                    $(".chapter_content p").css("color",_modObj.fontColor);
+                    $(".read_vf_nav a").css("color",_modObj.fontColor);
+                    //			$(".content").css("background",_modObj.con);
+                    //			$(".content a").css("color",_modObj.cona);
+                }
+
+                $(".bugchapter").on("click", function() {
+                    showBuyInfo({$chapter['articleid']},{$chapter['chapterid']});
+                });
+
+            }
+        })
+    </script>
+</body>
+</html>

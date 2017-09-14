@@ -1,0 +1,1513 @@
+[ 2017-08-29T09:28:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\IndexController.class.php 第 66 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\ThinkPHP\Library\Think\Db\Driver.class.php 第 546 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+NOTIC: [2] include(C:\\virtualhost\\bacoolread\\configs\\article\\sort.php): failed to open stream: No such file or directory D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [2] include(): Failed opening 'C:\\virtualhost\\bacoolread\\configs\\article\\sort.php' for inclusion (include_path='D:\xampp\php\PEAR') D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 664 行.
+NOTIC: [8] Undefined variable: sortName D:\xampp\htdocs\mobilebook\Application\Common\Common\function.php 第 671 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: caseid D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 123 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\36447d9ff9f361f39d03d123621a89e3.php 第 349 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2017-08-29T09:28:38+08:00 ] 127.0.0.1 /Template/mobile/default/Static/js/time/need/laydate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Template
+
+[ 2017-08-29T09:28:38+08:00 ] 127.0.0.1 /Template/mobile/default/Static/js/time/skins/default/laydate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Template
+
+[ 2017-08-29T09:28:43+08:00 ] 127.0.0.1 /Article/index/id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) ORDER BY addtime DESC LIMIT 5' at line 1
+ [ SQL语句 ] : SELECT * FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) ORDER BY addtime DESC LIMIT 5  
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 105 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 51 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 60 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 69 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 77 行.
+NOTIC: [8] Undefined variable: type D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 88 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 150 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 151 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 152 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 153 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 154 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 155 行.
+NOTIC: [8] Undefined variable: giftSum D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 156 行.
+NOTIC: [8] Undefined variable: chapter D:\xampp\htdocs\mobilebook\Application\Runtime\Cache\Mobile\d3f4f1206aa2d72c7bacc8b5bc87f965.php 第 571 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:28:47+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503970127')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:29:51+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503970191')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:29:54+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503970194')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:29:58+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503970198')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:50:02+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971402')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-29T09:51:11+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971471')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:51:40+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971500')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:52:50+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971569')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:53:34+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971614')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:53:55+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971635')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:55:02+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971702')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:57:39+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971859')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T09:58:50+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971930')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T09:59:48+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503971988')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:00:09+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972009')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:01:00+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972059')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:01:09+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972069')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:04:45+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972285')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:05:06+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972306')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:05:33+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972333')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-29T10:05:56+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972356')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:06:58+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972418')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:07:31+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972451')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:07:39+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972459')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:08:13+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972493')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:08:18+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972498')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:08:43+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972523')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:08:58+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972538')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:10:56+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972656')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T10:11:40+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972700')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T10:12:38+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972758')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:14:09+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972849')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:14:57+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972897')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:15:12+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972912')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:15:31+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972931')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:16:04+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972964')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:16:26+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972986')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:16:39+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503972998')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:16:55+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503973015')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-29T10:17:22+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503973042')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:19:33+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503973173')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-29T10:19:51+08:00 ] 127.0.0.1 /Article/readChapter/chapter_id/603298/book_id/2015.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: usercode D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\MobileBaseController.class.php 第 96 行.
+ERR: 1146:Table 'acool.jieqi_article' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `jieqi_article`
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 859 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 890 行.
+NOTIC: [8] Undefined index: uname D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 892 行.
+ERR: 1048:Column 'userid' cannot be null
+ [ SQL语句 ] : INSERT INTO `jieqi_distribution_article_bookcase` (`articleid`,`articlename`,`userid`,`username`,`chapterid`,`chaptername`,`chapterorder`,`joindate`) VALUES ('2015','保安逆袭兵王归来',NULL,NULL,'603298','第001章 贼人进屋','1','1503973191')
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\mobilebook\Application\Mobile\Controller\ArticleController.class.php 第 503 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `jieqi_distribution_comment` WHERE ( articleid=2015 AND (ischeck=1 OR userid=) ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

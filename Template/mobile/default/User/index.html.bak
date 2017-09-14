@@ -1,0 +1,135 @@
+<include file="Public/header"/>
+<body style="background-color: rgb(246,246,246);">
+	<div id="tbh5v0">
+		<div class="user_com">
+			<div style="background: url(__STATIC__/images/userbg.png);height: 120px">
+				<div id="scroll_promotion">
+					<ul>
+						<li>
+							<if condition="$user.faceImg eq ''">
+								<a href="{:U('User/login')}">
+							<else />
+								<a href="{:U('User/setUserInfo')}" style="margin-top: 0px;height: 0px">
+							</if>
+
+							<div class="left" style="padding: 20px;font-size: 14px">
+								<img style="border-radius: 50%;" width="80px" height="80px"  src="{$user.faceImg|default='__STATIC__/images/user68.jpg'}">
+							</div>
+
+							<div class="bookleft">
+								<h4 class="bookname" style="margin-top: 20px">
+									<if condition = "$user['name'] neq ''">
+										{$user['name']}[{$user['uid']}]
+									<else />
+										点击登录
+									</if>
+								</h4>
+
+								<p class="bookinfo" style="height: 20px;color: black" >
+									{$user['egold']}书币
+								</p>
+
+								<p class="bookinfo" style="height: 20px;color: black"  >
+									<if condition = "$user['isvip'] eq 1">
+										超级会员
+									<else />
+										普通会员
+									</if>
+								</p>
+							</div>
+
+							<if condition="$user.faceImg eq ''">
+								</a>
+							</if>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="Wallet">
+				<if condition="($isweixin neq 1)">
+					<a href="{:U('Mobile/User/buyEgold')}">
+						<em class="Icon Icon1"></em>
+						<dl class="b">
+							<dt>
+								快速充值
+							</dt>
+							<dd style="color:#aaaaaa;">
+								&nbsp;
+							</dd>
+						</dl>
+					</a>
+				<else/>
+					<a href="{:U('Mobile/User/getWeiXinInfo' ,array('backurl' => 'User-buyEgold'))}">
+						<em class="Icon Icon1"></em>
+						<dl class="b">
+							<dt>
+								快速充值
+							</dt>
+							<dd style="color:#aaaaaa;">
+								&nbsp;
+							</dd>
+						</dl>
+					</a>
+				</if>
+
+				<a href="{:U('Mobile/User/pagLog')}">
+					<em class="Icon Icon6"></em>
+					<dl class="b">
+						<dt>
+							充值记录
+						</dt>
+						<dd style="color:#aaaaaa;">
+							&nbsp;
+						</dd>
+					</dl>
+				</a>
+
+				<a href="{:U('Mobile/User/getBookCase')}" >
+					<em class="Icon Icon10"></em>
+					<dl class="b">
+						<dt>
+							我的书架
+						</dt>
+						<dd>
+							&nbsp;
+						</dd>
+					</dl>
+				</a>
+
+				<a href="{:U('Mobile/User/setUserInfo')}" >
+					<img style="float: left;width:28px;height: 28px; margin-top: 5px;" src="__STATIC__/images/bottom_img/shezhi1.png"/>
+
+					<span style="color:#666;float: left;font-size: 16px;line-height: 45px;margin-left: 10px">设置</span>
+				</a>
+			</div>
+
+			<if condition="($isweixin neq 1)">
+				<div class="Wallet">
+					<a href="{:U('User/logout')}">
+						<em class="Icon Icon8"></em>
+						<dl>
+							<dt>
+								注销登录
+							</dt>
+						</dl>
+					</a>
+				</div>
+			</if>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+        $(function()
+        {
+            width = document.documentElement.clientWidth - 112;
+
+            width = 0.9 * width;
+
+            $('.bookleft').css({width:width});
+        });
+	</script>
+
+	<include file="Public/footer_nav"/>
+</body>
+</html>

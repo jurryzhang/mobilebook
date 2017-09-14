@@ -1,0 +1,2 @@
+<?php 
+$GLOBALS['sitead']= false;

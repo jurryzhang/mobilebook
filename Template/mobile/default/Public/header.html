@@ -1,0 +1,59 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="applicable-device" content="mobile">
+		<link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+		<title>{$site_title}</title>
+		<link rel="stylesheet" href="__STATIC__/css/public.css">
+		<link rel="stylesheet" href="__STATIC__/css/index.css">
+		<link rel="stylesheet" href="__STATIC__/css/user.css">
+		<link rel="stylesheet" href="__STATIC__/css/category.css">
+		<link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+		<script type="text/javascript" src="__STATIC__/js/common.js"></script>
+		<script type="text/javascript" src="__STATIC__/js/modernizr.js"></script>
+		<script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+		<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" ></script>
+		<script>
+			function listenBack() {
+				if (window.history.length <= 2) {
+					window.history.replaceState("wx-back", null,"");
+					window.history.pushState("", null,"");
+				}
+//				else{
+//					window.history.replaceState("", null,"");
+//				}
+				window.onpopstate=function(){
+//				alert("location: " + document.location + ", state: " + JSON.stringify(history.state));
+					if (!!({$isweixin}&&history.state=="wx-back")) {
+						WeixinJSBridge.call('closeWindow');
+					}
+				}
+			}
+//			window.onload=function(){
+//				if (window.history.length <= 2) {
+//					window.history.replaceState("wx-back", null,"");
+//					window.history.pushState("", null,"");
+//				}
+//				else{
+//					window.history.replaceState("", null,"");
+//				}
+//				window.onpopstate=function(){
+////				alert("location: " + document.location + ", state: " + JSON.stringify(history.state));
+//					if (!!({$isweixin}&&history.state=="wx-back")) {
+//						WeixinJSBridge.call('closeWindow');
+//					}
+//				}
+//				alert("location: " + document.location + ", state: " + JSON.stringify(history.state));
+//			}
+		</script>
+		<style type="text/css">
+	
+		</style>
+	</head>

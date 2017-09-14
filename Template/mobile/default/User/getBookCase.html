@@ -1,0 +1,109 @@
+
+<include file="Public/header"/>
+
+<body>
+<include file="Public/header_nav"/>
+  
+
+    <div id="tbh5v0">
+        <!--------筛选 form 表单 开始-------------->
+        <div class="order ajax_return">
+            <empty name="list">
+                <div id="list_0_0" class="font12">您的书架还是空！</div>
+            <else/>
+                <section class="index_floor_lou">
+                    <volist name="list" id="book">
+                        <div class="floor_body"  style="border-top: 10px;">
+                            <div id="scroll_promotion">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:return false;" title="1" class="flex">
+                                            <div class="cover" onclick="showInfo({$book['caseid']})">
+                                                <img  alt="{$book.info.articlename}" src="{$book.cover}">
+                                            </div>
+
+                                            <div class="bInfo" id="bookintro">
+                                                <h4 class="bookname" onclick="showInfo({$book['caseid']})">
+                                                    {$book.info.articlename}
+                                                </h4>
+
+                                                <p class="bookinfo" onclick="showInfo({$book['caseid']})">
+                                                    {$book.info.intro}
+                                                </p>
+
+                                                <p class="bookauthor" >
+                                                    <!-- <span style="font-size: 12px" onclick="showInfo({$book['caseid']})">
+                                                       作者：{$book.info.author}
+                                                    </span> -->
+
+                                                    <span class="booksize1" id="delbookcase" onclick="delBookCase({$book['caseid']})">
+                                                        取消收藏
+                                                    </span>
+
+                                                    <span class="booksort1" id="showinfo" onclick="showInfo({$book['caseid']})">
+                                                        继续阅读
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </volist>
+                </section>
+            </empty>
+        </div>
+    </div>
+
+    <!-- <a href="javascript:goTop();" class="gotop">
+        <img src="__STATIC__/images/topup.png">
+    </a> -->
+
+    <script type="text/javascript">
+        function delBookCase(caseID)
+        {
+            $.ajax(
+            {
+                type     : 'get',
+                url 	 : "/index.php?m=Mobile&c=User&a=delBookFromBookCase&id=" + caseID,
+                dataType : 'json',
+                success  : function(res)
+                {
+                    if(res.status == 1)
+                    {
+                        top.location.href = res.url;
+                    }
+                    else
+                    {
+                        showErrorMsg(res.msg);
+                    }
+                },
+                error : function(jqXHR)
+                {
+                    showErrorMsg('网络失败，请刷新页面后重试');
+                }
+            })
+        }
+
+        function showInfo(bookcaseID)
+        {
+            window.location.href = "/Article/readChapterFromBookCase/bookcase_id/" + bookcaseID + ".html";
+        }
+
+        $(function()
+        {
+            width = document.documentElement.clientWidth - 112;
+
+            width = 0.9 * width;
+
+            $('.bookleft').css({width:width});
+        });
+
+        function goTop()
+        {
+            $('html,body').animate({'scrollTop':0},600);
+        }
+    </script>
+</body>
+</html>

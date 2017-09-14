@@ -1,0 +1,18 @@
+.tip{
+    margin: auto;
+    margin-top: 1em;
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+}
+.bugchapter
+{
+    width: 95%;
+    height: 45px;
+    line-height: 45px;
+    margin:2em auto 70px auto;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background: #efa164;
+}

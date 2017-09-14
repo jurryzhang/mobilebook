@@ -1,0 +1,244 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta name="Generator"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="__PUBLIC__/images/favicon.ico" />
+        <title>{$site_title}</title>
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/public.css"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/index.css"/>
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/read.css">
+
+        <link rel="stylesheet" type="text/css" href="__STATIC__/css/category_list.css"/>
+		<link href="__PUBLIC__/bootstrap/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="__STATIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/TouchSlide.1.1.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/jquery.json.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/touchslider.dev.js"></script>
+        <script type="text/javascript" src="__STATIC__/js/layer.js" ></script>
+        <script type="text/javascript" src="__STATIC__/js/common.js"></script>
+        <style type="text/css">
+            .dashang ul li{
+                float: left;
+                width: 13%;
+                border-bottom: none;
+                margin-left: 1%;
+            }
+            .dashang ul p{
+                font-size: 10px;
+                line-height: 10px;
+            }
+            .dashang_icon{
+                width: 60%;
+            }
+            .liwu ul li{
+                border-bottom: none;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+    <include file="Public/header_nav"/>
+        <div id="page" class="showpage">
+             <!-- <div class="header">
+                <div class="h-left">
+                    <a class="sb-back" href="javascript:history.go(-1);" title="返回" target="_self"></a>
+                </div>
+
+                <div class="h-mid">
+                    {$book_info.articlename}
+                </div>
+				
+				<div style="float: right;margin-top: 5px;margin-right: 7%;">
+                    <a href="/" title="主页" target="_self" >
+                        <i class="fa fa-home" style="font-size: 30px;"></i>
+                    </a>
+                </div>
+            </div>  -->
+            
+
+            <section class="index_floor_lou" >
+                <div class="floor_body"  style="padding-top:8px;margin-top:-8px;">
+                    <div id="scroll_promotion">
+                        <ul class="flex">
+                            <div class="cover">
+                                <img  alt="{$book_info.articlename}" src="{$book_info.cover}">
+                            </div>
+                            <div class="bInfo" id="bookintro">
+                                <h4 class="bookname" style="line-height:17px">
+                                    {$book_info.articlename}
+                                </h4>
+
+                                <!-- <p class="artcile_info" >
+                                    作者：{$book_info.author}
+                                </p> -->
+
+                                <p class="artcile_info" >
+                                    字数：{$book_info.size}
+                                </p>
+
+                                 <!-- <p class="artcile_info" >
+                                    价格：{$book_info.price}
+                                </p>  -->
+                                <p class="artcile_info" >
+                                    状态：{$book_info.flag}
+                                </p>
+                                <!-- <p class="artcile_info" >
+                                    来源：{$book_info.sourcename}
+                                </p> -->
+                            </div>
+                        </ul>
+                    </div>
+                    <!--打赏个数-->
+                    <!--<div style="width: 100%" class="dashang">
+                        <ul style="width:100%">
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv01.png"><p>{$giftSum[1]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv02.png"><p>{$giftSum[2]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv03.png"><p>{$giftSum[3]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv04.png"><p>{$giftSum[4]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv05.png"><p>{$giftSum[5]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv06.png"><p>{$giftSum[6]+0}</p></li>
+                            <li><img class="dashang_icon" src="__STATIC__/images/liwu/nan-giv07.png"><p>{$giftSum[7]+0}</p></li>
+                        </ul>
+                    </div>-->
+                </div>
+
+                <!--打赏、催更、评论-->
+                <div class="liwu" style="text-align: center;padding-bottom:2%;padding-top: 2%;border-top: 1px solid #F2F2F2">
+                    <div class="cuigeng" style="display: inline-block;font-size: 13px;width: 27%;vertical-align: middle">
+                        <img style="width:30%;" src="__STATIC__/images/liwu/cuigeng.png">
+                        <ul style="display: inline-block;line-height: 16px;vertical-align: middle">
+                            <li>催更</li>
+                            <li style="color: #909090">{$bookinfo['sumhurry']}</li>
+                        </ul>
+                    </div>
+                    <div class="dashang" style="display: inline-block;font-size: 13px;width: 27%;vertical-align: middle;">
+                        <img style="width:30%;" src="__STATIC__/images/liwu/dashang.png">
+                        <ul style="display: inline-block;line-height: 16px;vertical-align: middle;margin-left: -7%">
+                            <li>打赏</li>
+                            <li style="color: #909090">{$bookinfo['sumgift']}</li>
+                        </ul>
+                    </div>
+                    <div class="pinglun" style="display: inline-block;width: 27%;font-size: 13px;vertical-align: middle;">
+                        <img style="width:30%;" src="__STATIC__/images/liwu/pinglun.png">
+                        <ul style="display: inline-block;line-height: 16px;vertical-align: middle;">
+                            <li>评论</li>
+                            <li style="color: #909090">{$bookinfo['sumcomment']}</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="floor_body">
+                    <h2 style="margin-top: 10px;border-bottom: 1px solid #efefef">
+                        <em></em>
+                        书籍简介
+                    </h2>
+
+                    <div style="margin: 10px 20px 10px 20px;font-size: 14px;line-height: 23px;color:#B0B0B0;">
+                        {$book_info.intro}
+                    </div>
+                </div>
+
+                <div class="floor_body">
+                    <h2 style="margin-top: 10px;border-bottom: 1px solid #efefef">
+                        <em></em>
+                        章节目录
+                    </h2>
+
+                    <a href="{:U('Article/readChapter',array('book_id' => $book_info['articleid'],'chapter_id' => $book_info['lastchapterid']))}" >
+                        <div style="margin: 10px 20px 10px 20px;font-size: 14px;line-height: 30px">
+                            最新章节：{$book_info.lastchapter}
+                        </div>
+
+                        <div style="margin: 0;font-size: 10px;padding-top: 10px;padding-bottom: 10px;line-height: 18px;border-top: 1px solid #efefef;border-bottom: 1px solid #efefef;text-align: center" >
+                            <a href="{:U('Article/getDirectory',array('id' => $book_info['articleid']))}" >
+                                点击查看更多章节（共{$book_info.chaptersum}章）
+                            </a>
+                        </div>
+                    </a>
+                </div>
+				
+				<div class="container" style="width: 100%;height:20%;overflow: hidden;border-top: 10px solid #F2F2F2">
+                    <h2 style="height: 35px;line-height: 35px;font-size: 16px;font-weight: normal;color: #7f7f7f;margin-bottom: 10px; margin-top: 10px;border-bottom: 1px solid #efefef">
+                        <em style="width: 3px;height: 15px;background: #efa164;margin-right: 5px;margin-top: 10px;float: left;"></em>
+                        书友评论
+                        <span class="want_comment" style="float: right;margin-right:20px;font-size: 12px;">
+                            <i class="fa fa-pencil-square-o"></i> 我要评论
+                        </span>
+                    </h2>
+
+                    <!--<a href="{:U('Article/readChapter',array('book_id' => $book_info['articleid'],'chapter_id' => $book_info['lastchapterid']))}" >-->
+                    <empty name="commentList">
+                        <div style="text-align:center;color:#AAA;margin-top: 10px;padding-left:20px;font-size: 14px;line-height: 30px;border-bottom: 1px solid #efefef;">
+                            未发布任何评论
+                        </div>
+                    <else/>
+                       <table style="width: 100%">
+                            <volist name="commentList" id="list">
+                            <tr>
+                                <td style="border-bottom: solid 1px #efefef;padding-bottom: 10px;padding-top: 10px">                                    
+                                    <span style="width: 15%;float: left;margin-left: 2%;vertical-align: middle;">
+                                        <img src="{$list['faceImg']}" style="width:36px;border-radius: 18px;">
+                                    </span>                                    
+                                    <ul class="textBox" style="width:81%;float: left;">
+                                        <li style="line-height: 16px;vertical-align: middle;font-size: 14px;">
+                                            {$list['username']}
+                                        </li>
+                                        <li style="line-height: 16px;vertical-align: middle;font-size: 11px;color: #8C8C8C;">
+                                            <!--{:mb_substr($list['content'],0,38,'utf-8')}......-->{$list['content']}
+                                        </li>
+                                        <li style="line-height: 16px;vertical-align: middle;font-size: 11px;color: #8C8C8C;">
+                                            {:date('Y-m-d H:i:s',$list['addtime'])}
+                                        </li>
+                                        <if condition="$list.reply eq ''">
+                                            <else/>
+                                            <ul style="font-size: 12px;">
+                                                <li>作者回复：</li>
+                                                <li style="line-height: 1px;color: #CCC;">{$list.reply}</li>
+                                            </ul>
+                                        </if>
+
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            </volist>
+                        </table>
+						<div class="moreCom" style="text-align:center;color:#AAA;margin-top: 10px;padding-left:20px;padding-bottom:10px;font-size: 14px;line-height: 30px;border-bottom: 1px solid #efefef;">
+                            点击加载更多评论
+                        </div>
+                    </empty>
+                    <!--</a>-->
+                </div>
+            </section>
+
+            <include file="dashangFoot"/>
+
+            <include file="footer"/>
+
+            <script>
+                $(function()
+                {
+                    width = document.documentElement.clientWidth - 160;
+
+                    width = 0.9 * width;
+
+                    $('.bookleft').css({width:width});
+                });
+				/*我要评论*/
+				$('.want_comment').click(function(){
+                    $(location).attr('href', "/Gifts/comment/articleid/{$book_info['articleid']}");
+                });
+				/*更多评论*/
+				$('.moreCom').click(function(){
+                    $(location).attr('href', "/Gifts/commentList/articleid/{$book_info['articleid']}");
+                });
+            </script>
+        </div>
+
+    </body>
+</html>

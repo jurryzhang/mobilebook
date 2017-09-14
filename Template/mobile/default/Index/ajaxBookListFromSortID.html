@@ -1,0 +1,46 @@
+<foreach name="resultbooklist" item="book" key="k">
+    <div class="floor_body"  style="border-top: 0px;">
+        <div id="scroll_promotion">
+            <ul>
+                <li style="margin-top: 10px;width: 100%;margin-left: 0px">
+                    <a href="{$book.url}" title="1" class="flex">
+                        <div class="cover">
+                            <img  alt="{$book.info.articlename}" src="{$book.cover}">
+
+                        </div>
+
+                        <div class="bInfo" id="bookintro">
+                            <h4 class="bookname">
+                                {$book.articlename}
+                            </h4>
+
+                            <p class="bookinfo" >
+                                {$book.intro}
+                            </p>
+
+                            <!-- <p class="bookauthor" >
+                                <span>
+                                    {$book.author}
+                                </span>
+                                <span class="booksize">
+                                    {$book.size}
+                                </span>
+                            </p> -->
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        $(function()
+        {
+            width = document.documentElement.clientWidth - 112;
+
+            width = 0.9 * width;
+
+            $('.bookleft').css({width:width});
+        });
+    </script>
+</foreach>
